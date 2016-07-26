@@ -3,6 +3,9 @@
 
 Expandable TableView in swift (similar to expandable ListView in Android)
 
+![alt tag](https://raw.githubusercontent.com/SubhiH/ExpandableTableView/demo.gif)
+
+
 ### How to use:
 All you need are exist in ExpandableExample folder.
 
