@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="49" id="a5w-V3-NvE" userLabel="Sub Table Cell Table View Cell" customClass="SubjectMarkTableViewCell" customModule="ExpandableTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a5w-V3-NvE" id="Ida-ow-Tax">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="48.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="col2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kc5-he-rBs">
+                        <rect key="frame" x="119.5" y="14" width="119" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="col3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGF-kx-qon">
+                        <rect key="frame" x="8" y="14" width="119.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="col1" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZI-GF-ZQV">
+                        <rect key="frame" x="230" y="13" width="119.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.88997998899999997" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Kc5-he-rBs" firstAttribute="width" secondItem="Ida-ow-Tax" secondAttribute="width" id="1oj-NJ-9h3"/>
+                    <constraint firstItem="Kc5-he-rBs" firstAttribute="width" secondItem="Ida-ow-Tax" secondAttribute="width" multiplier="1:3" id="2wd-z4-ZwR"/>
+                    <constraint firstItem="rGF-kx-qon" firstAttribute="width" secondItem="Kc5-he-rBs" secondAttribute="width" id="4EP-Kr-OeO"/>
+                    <constraint firstItem="rGF-kx-qon" firstAttribute="height" secondItem="Kc5-he-rBs" secondAttribute="height" id="4Th-dN-4vw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0ZI-GF-ZQV" secondAttribute="trailing" id="HSD-Wq-hPh"/>
+                    <constraint firstItem="Kc5-he-rBs" firstAttribute="centerX" secondItem="Ida-ow-Tax" secondAttribute="centerX" id="NOE-Mg-GHv"/>
+                    <constraint firstItem="0ZI-GF-ZQV" firstAttribute="centerY" secondItem="Kc5-he-rBs" secondAttribute="centerY" id="SOA-br-cbG"/>
+                    <constraint firstItem="0ZI-GF-ZQV" firstAttribute="width" secondItem="Kc5-he-rBs" secondAttribute="width" id="UNz-Pe-V3f"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Kc5-he-rBs" secondAttribute="trailing" constant="150" id="cKc-zy-dGS"/>
+                    <constraint firstItem="0ZI-GF-ZQV" firstAttribute="height" secondItem="Kc5-he-rBs" secondAttribute="height" id="m2Q-MB-ubY"/>
+                    <constraint firstItem="rGF-kx-qon" firstAttribute="leading" secondItem="Ida-ow-Tax" secondAttribute="leadingMargin" id="tnG-NZ-bP5"/>
+                    <constraint firstItem="rGF-kx-qon" firstAttribute="centerY" secondItem="Kc5-he-rBs" secondAttribute="centerY" id="v7r-95-ZGK"/>
+                    <constraint firstItem="Kc5-he-rBs" firstAttribute="centerY" secondItem="Ida-ow-Tax" secondAttribute="centerY" id="zhU-I1-8Fm"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="1oj-NJ-9h3"/>
+                        <exclude reference="cKc-zy-dGS"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="0.087277274860000004" blue="0.060961591789999998" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="266" y="233.5"/>
+        </tableViewCell>
+    </objects>
+</document>
