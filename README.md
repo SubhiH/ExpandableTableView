@@ -3,7 +3,7 @@
 
 Expandable TableView in swift (similar to expandable ListView in Android)
 
-<img src="https://github.com/SubhiH/ExpandableTableView/blob/master/demo.gif" alt="" width="200" height="400"/>
+<img src="https://github.com/SubhiH/ExpandableTableView/blob/master/demo.gif" alt="" width="250" height="450"/>
 
 
 ### How to use:
