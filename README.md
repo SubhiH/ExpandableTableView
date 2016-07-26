@@ -28,10 +28,11 @@ for example: if you want to add another column to inner tables, just change the 
 
 and in cellForRowAtIndexPath function set the value to the 4th label (you should give it tag=4 from IB)
 ```swift
- (cell.viewWithTag(3) as! UILabel).text = self.data.3[index][indexPath.row-1]
+ (cell.viewWithTag(4) as! UILabel).text = self.data.4[index][indexPath.row-1]
 ```
 
-Kai Engelhardt's answer helped: http://stackoverflow.com/a/24921181/2670420
+Kai Engelhardt's answer helped me: http://stackoverflow.com/a/24921181/2670420
+
 
 ### License
 The MIT License (MIT)
